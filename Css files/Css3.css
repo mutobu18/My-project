@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif; /* Example font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Use border-box model */
+}
+nav {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px 0; /* Example padding for spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center; /* Center align the list items */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Example margin between list items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Example text color */
+    padding: 10px 15px; /* Example padding for clickable area */
+    border-radius: 5px; /* Example border radius for buttons */
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Example background color on hover */
+}
+header {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Example padding for header */
+}
+
+h1 {
+    color: #333; /* Example text color */
+}
+
+main {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Wrap items if they exceed container width */
+    justify-content: center; /* Center items horizontally */
+    padding: 20px; /* Example padding for main content */
+}
+
+main img {
+    width: 200px; /* Example width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin around images */
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #ddd; /* Footer background color */
+}

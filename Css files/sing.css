@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+     background-image: url('../Images/img3.src.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.fixed-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px; /* Adjust width as needed */
+    height: 100%;
+    background-color: #45a049;
+    
+
+    padding: 20px;
+    overflow: auto; /* Enable scrolling if content exceeds height */
+    box-sizing: border-box;
+}
+
+
+
+fieldset {
+    width: 300px; /* set the width of the fieldset */
+    padding: 20px;
+    border: 2px solid black; /* border color */
+    background-color: white; /* background color of the fieldset */
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 12px); /* adjust width to fit within fieldset padding */
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color:green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
