@@ -1,3 +1,10 @@
+<?php 
+include 'db_connect.php';
+include 'insert_message.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

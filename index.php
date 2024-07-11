@@ -8,6 +8,7 @@
 
 </head>
 <body>
+    <?php include  'header.php';?>
     
     <header>
         <nav>
